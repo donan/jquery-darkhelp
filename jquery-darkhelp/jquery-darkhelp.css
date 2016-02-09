@@ -1,0 +1,72 @@
+/* BASIC STYLES */
+.darkhelp_toogle{position:fixed;right:12px;box-shadow: 0 0 6px rgba(100, 100, 100, 0.1);border-radius: 6px;-webkit-transition: all .1s linear;  transition: all .1s linear; z-index:1025;border:1px solid #d8d5d5;padding:5px;font-size:11px;line-height:11px;text-align:center;padding-top:4px;
+min-width:70px}
+.darkhelp_toogle span{position:relative;display:block;width:40px;height:18px;border-radius:4px;background:#d8d5d5;margin:5px auto 0}
+.darkhelp_toogle i{position:absolute;top:3px;left:3px;display:block;width:18px;height:12px;background:#F6F6F6;border-radius:4px;webkit-transition: all .1s linear;  transition: all .1s linear}
+.darkhelp_toogle:active{outline:0}
+#darkhelp_toogle_on, .darkhelp_toogle:hover{text-decoration:none}
+#darkhelp_toogle_on i{left:auto;right:3px}
+.darkhelp_toogle_bg{position:fixed;width:100%;height:100%;background:#222222;background:rgba(0,0,0,0.25);z-index:110}
+.darkhelp_box{position:absolute;z-index:112;font-weight:bold;font-size:13px;line-height:16px;text-align:center;border-radius:6px}
+.darkhelp_box span{  position: relative;display:block;  top: 50%;  -webkit-transform: translateY(-50%);  -ms-transform: translateY(-50%);  transform: translateY(-50%);padding:0 10px}
+
+
+/* THEME COLORS */
+/* Text Help box default colors*/
+.darkhelp_box_black{background:rgba(21,21,21,0.71);color:#fff;text-shadow:1px 1px 5px rgba(0,0,0,0.8)}
+.darkhelp_box_blue{background:rgba(7,32,64,0.71);color:#fff;text-shadow:1px 1px 5px rgba(0,0,0,0.8)}
+.darkhelp_box_red{background:rgba(64,7,7,0.71);color:#fff;text-shadow:1px 1px 5px rgba(0,0,0,0.8)}
+.darkhelp_box_green{background:rgba(38,64,7,0.71);color:#fff;text-shadow:1px 1px 5px rgba(0,0,0,0.8)}
+.darkhelp_box_brown{background:rgba(64,44,7,0.71);color:#fff;text-shadow:1px 1px 5px rgba(0,0,0,0.8)}
+.darkhelp_box_purple{background:rgba(61,7,64,0.71);color:#fff;text-shadow:1px 1px 5px rgba(0,0,0,0.8)}
+.darkhelp_box_invert{background:rgba(255,255,255,0.71);color:#000;text-shadow:1px 1px 5px rgba(255,255,255,0.8)}
+
+/* Button default colors*/
+.darkhelp_black{border-color:#ccc;background:#555;color:#fff}
+.darkhelp_black span{background:#fff}
+.darkhelp_black i{background:#555}
+.darkhelp_black:hover, #darkhelp_toogle_on.darkhelp_black{background:#000;color:#fff}
+.darkhelp_black:hover span, #darkhelp_toogle_on.darkhelp_black span{background:#fff}
+.darkhelp_black:hover i, #darkhelp_toogle_on.darkhelp_black i{background:#000}
+
+.darkhelp_blue{border-color:#d8d5d5;background:#F6F6F6;color:#666}
+.darkhelp_blue span{background:#d8d5d5}
+.darkhelp_blue i{background:#F6F6F6}
+.darkhelp_blue:hover, #darkhelp_toogle_on.darkhelp_blue{background:#E0F3FF;border-color:#B2D0F0;color:#666}
+.darkhelp_blue:hover span, #darkhelp_toogle_on.darkhelp_blue span{background:#0098d9}
+.darkhelp_blue:hover i, #darkhelp_toogle_on.darkhelp_blue i{background:#fff}
+
+.darkhelp_red{border-color:#e66c6c;background:#ffe0e0;color:#771f1f}
+.darkhelp_red span{background:#fff}
+.darkhelp_red i{background:#e66c6c}
+.darkhelp_red:hover, #darkhelp_toogle_on.darkhelp_red{background:#940f0f;color:#fff}
+.darkhelp_red:hover span, #darkhelp_toogle_on.darkhelp_red span{background:#fff}
+.darkhelp_red:hover i, #darkhelp_toogle_on.darkhelp_red i{background:#940f0f}
+
+.darkhelp_green{border-color:#55771f;background:#f1ffe0;color:#466a1b}
+.darkhelp_green span{background:#fff}
+.darkhelp_green i{background:#55771f}
+.darkhelp_green:hover, #darkhelp_toogle_on.darkhelp_green{background:#446221;color:#fff}
+.darkhelp_green:hover span, #darkhelp_toogle_on.darkhelp_green span{background:#fff}
+.darkhelp_green:hover i, #darkhelp_toogle_on.darkhelp_green i{background:#446221}
+
+.darkhelp_brown{border-color:#af9075;background:#fff5ec;color:#774b23}
+.darkhelp_brown span{background:#fff}
+.darkhelp_brown i{background:#af9075}
+.darkhelp_brown:hover, #darkhelp_toogle_on.darkhelp_brown{background:#774b23;color:#fff}
+.darkhelp_brown:hover span, #darkhelp_toogle_on.darkhelp_brown span{background:#fff}
+.darkhelp_brown:hover i, #darkhelp_toogle_on.darkhelp_brown i{background:#774b23}
+
+.darkhelp_purple{border-color:#8c75af;background:#ede1ff;color:#65498f}
+.darkhelp_purple span{background:#fff}
+.darkhelp_purple i{background:#8c75af}
+.darkhelp_purple:hover, #darkhelp_toogle_on.darkhelp_purple{background:#523879;color:#fff}
+.darkhelp_purple:hover span, #darkhelp_toogle_on.darkhelp_purple span{background:#fff}
+.darkhelp_purple:hover i, #darkhelp_toogle_on.darkhelp_purple i{background:#523879}
+
+.darkhelp_invert{border-color:#555;background:#222;color:#fff}
+.darkhelp_invert span{background:#fff}
+.darkhelp_invert i{background:#222}
+.darkhelp_invert:hover, #darkhelp_toogle_on.darkhelp_invert{background:#fff;color:#000}
+.darkhelp_invert:hover span, #darkhelp_toogle_on.darkhelp_invert span{background:#000}
+.darkhelp_invert:hover i, #darkhelp_toogle_on.darkhelp_invert i{background:#fff}
