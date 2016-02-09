@@ -1,5 +1,5 @@
 /* BASIC STYLES */
-.darkhelp_toogle{position:fixed;right:12px;box-shadow: 0 0 6px rgba(100, 100, 100, 0.1);border-radius: 6px;-webkit-transition: all .1s linear;  transition: all .1s linear; z-index:1025;border:1px solid #d8d5d5;padding:5px;font-size:11px;line-height:11px;text-align:center;padding-top:4px;
+.darkhelp_toogle{position:fixed;right:12px;box-shadow: 0 0 6px rgba(100, 100, 100, 0.1);border-radius: 6px;-webkit-transition: all .1s linear;  transition: all .1s linear; z-index:1125;border:1px solid #d8d5d5;padding:5px;font-size:11px;line-height:11px;text-align:center;padding-top:4px;
 min-width:70px}
 .darkhelp_toogle span{position:relative;display:block;width:40px;height:18px;border-radius:4px;background:#d8d5d5;margin:5px auto 0}
 .darkhelp_toogle i{position:absolute;top:3px;left:3px;display:block;width:18px;height:12px;background:#F6F6F6;border-radius:4px;webkit-transition: all .1s linear;  transition: all .1s linear}
