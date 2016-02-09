@@ -14,7 +14,7 @@ Call the function `$().jqueryDarkhelp();` within the document ready. Example:
 
 ```javascript
     $(document).ready(function() {
-    $().jqueryDarkhelp();
+        $().jqueryDarkhelp();
     });
 ```
 If you dont like the button, you can manually activate the dialogs by using 2 different methods:
@@ -22,7 +22,7 @@ If you dont like the button, you can manually activate the dialogs by using 2 di
     `$().jqueryDarkhelp({method:'hide'});`
 ***
 ##Settings:
-*  selector - Current html property where the text comes from, you can change it to be an alt, title or whatever crazy property you like.
+*  **selector** - Current html property where the text comes from, you can change it to be an alt, title or whatever crazy property you like.
 *  **button_top** - Position of the button.
 *  **button** - true or false to show/hide the button.
 *  **button_color** - change the theme to one of the default ones: black, blue, red, green, brown, purple, invert.
