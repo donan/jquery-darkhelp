@@ -2,8 +2,10 @@
 ####Automatic help descriptions system. Use custom data attributes to describe your application features,
 
 #####Author: Pablo Carabantes 
-#####Website: se32.com
+#####Website: [se32.com](http://www.se32.com)
 ***
+
+### [DEMO](http://www.se32.com/darkhelp/example.html)
 
 ##How to use it:
 
