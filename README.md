@@ -1,5 +1,5 @@
 # jquery-darkhelp
-####Automatic help descriptions system. Use custom data attributes to describe your application features,
+####Automatic help descriptions system. Use custom data attributes to describe your application features
 
 #####Author: Pablo Carabantes 
 #####Website: [se32.com](http://www.se32.com)
@@ -9,7 +9,7 @@
 
 ##How to use it:
 
-Load Jquery, and link also the js and css of the plugin to your document
+Load Jquery, and link  the js and css of the plugin
 Call the function $().jqueryDarkhelp(); within the document ready. Example:
     $(document).ready(function() {
     $().jqueryDarkhelp();
