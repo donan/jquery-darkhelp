@@ -56,7 +56,7 @@ Settings:
 		
 		$('body').on('click', '#darkhelp_toogle_off', function(){  darkhelptoggle(0);   return false; });
 		$('body').on('click', '#darkhelp_toogle_on', function(){   darkhelptoggle(1);   return false; });		
-		$(window).resize(function(){
+		$(window).on('resize',function(){
 			$('.darkhelp_toogle_bg').css({'height':($(document).height())+'px'});
 			recalculate_darkhelp();
 		});
@@ -80,7 +80,7 @@ Settings:
 		}
 		function init_hints(){
 			if($('['+darkhelp_selector+']').length){
-				darkhelp_gizmos.appendTo('body');
+				$('body:first').prepend(darkhelp_gizmos);
 				if((settings.button) && (settings.method !=='show')&&(settings.method !=='hide')){
 				$('#darkhelp_toogle_off').fadeIn(200);
 				}
