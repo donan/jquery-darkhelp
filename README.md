@@ -1,8 +1,9 @@
 # jquery-darkhelp
-####Automatic help descriptions system. Use custom data attributes to describe your application features
+// ABANDONED PROJECT //
+#### Automatic help descriptions system. Use custom data attributes to describe your application features
 
-#####Author: Pablo Carabantes 
-#####Website: [se32.com](http://www.se32.com)
+##### Author: Pablo Carabantes 
+##### Website: [se32.com](http://www.se32.com)
 ***
 
 ### [DEMO](http://www.se32.com/darkhelp/example.html)
@@ -21,7 +22,7 @@ If you dont like the button, you can manually activate the dialogs by using 2 di
    ` $().jqueryDarkhelp({method:'show'});`
     `$().jqueryDarkhelp({method:'hide'});`
 ***
-##Settings:
+## Settings:
 *  **selector** - Current html property where the text comes from, you can change it to be an alt, title or whatever crazy property you like.
 *  **button_top** - Position of the button.
 *  **button** - true or false to show/hide the button.
