@@ -2,7 +2,7 @@
 // ABANDONED PROJECT //
 #### Automatic help descriptions system. Use custom data attributes to describe your application features
 
-##### Author: Pablo Carabantes 
+##### Author: Pablo CL 
 ##### Website: [se32.com](http://www.se32.com)
 ***
 
