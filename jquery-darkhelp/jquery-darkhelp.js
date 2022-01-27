@@ -1,7 +1,7 @@
 //--------------------
 // jquery-darkhelp - Help information system
 // Automatic help descriptions system. Use custom data attributes to describe your application 
-// Author: Pablo Carabantes
+// Author: Pablo CL
 // Website: se32.com
 //--------------------
 /*
